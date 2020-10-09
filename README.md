@@ -33,7 +33,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='simple-tweet-p1-demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='simple-tweet-demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [XRecorder](https://play.google.com/store/apps/details?id=videoeditor.videorecorder.screenrecorder&hl=en_US&gl=US).
 
