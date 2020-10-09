@@ -18,8 +18,17 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
         android:layout_toEndOf="@id/ivProfileImage"
+        android:textColor="@android:color/black"
         android:textStyle="bold"
         tools:text="panda123" />
+
+    <TextView
+        android:id="@+id/tvTimestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textStyle="bold"
+        tools:text="20m" />
 
     <TextView
         android:id="@+id/tvBody"
@@ -30,4 +39,6 @@
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@id/ivProfileImage"
         tools:text="An awesome tweet!" />
+
+
 </RelativeLayout>
