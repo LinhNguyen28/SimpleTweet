@@ -13,27 +13,18 @@ The following **required** functionality is completed:
   - [X] User is displayed the username, name, and body for each tweet
   - [X] User is displayed the [relative timestamp](https://gist.github.com/nesquena/f786232f5ef72f6e10a7) for each tweet "8m", "7h"
 - [X] User can refresh tweets timeline by pulling down to refresh
-
-The following **optional** features are implemented:
-
-- [X] User can view more tweets as they scroll with infinite pagination
-- [ ] Improve the user interface and theme the app to feel "twitter branded"
-- [ ] Links in tweets are clickable and will launch the web browser
-- [ ] User can tap a tweet to display a "detailed" view of that tweet
-- [ ] User can see embedded image media within the tweet detail view
-- [ ] User can watch embedded video within the tweet
-- [ ] User can open the twitter app offline and see last loaded tweets
-- [ ] On the Twitter timeline, leverage the CoordinatorLayout to apply scrolling behavior that hides / shows the toolbar.
-
-The following **additional** features are implemented:
-
-- [ ] List anything else that you can get done to improve the app functionality!
+- [X] User can **compose and post a new tweet**
+  - [X] User can click a “Compose” icon in the Action Bar on the top right
+  - [X] User can then enter a new tweet and post this to twitter
+  - [X] User is taken back to home timeline with **new tweet visible** in timeline
+  - [X] Newly created tweet should be manually inserted into the timeline and not rely on a full refresh
+  - [X] User can **see a counter with total number of characters left for tweet** on compose tweet page
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='simple-tweet-demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='simple-tweet-demo-2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [XRecorder](https://play.google.com/store/apps/details?id=videoeditor.videorecorder.screenrecorder&hl=en_US&gl=US).
 
@@ -48,7 +39,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [2020] [name of copyright owner]
+    Copyright [2020] 
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
